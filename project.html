@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dongjin Xu | Project</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Dongjin Xu">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="css/style.css" type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body onload="getQuestion()">
+<!--
+    nagivation -->
+    <div class="navigation">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="personal.html">PERSONAL</a></li>
+        <li><a href="project.html">PROJECT</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+
+
+    <!-- project-->
+
+      <div id="proposal">
+        <h4>Question：</h4>
+        <text id="showque" readonly="readonly">
+        </text>
+      </div>
+
+      <div id="reply">
+        <h4>Please enter your answer:</h4>
+        <input type="text" id="answer"/>
+        <input type="button" id="sub" onclick="IsCorrect()" value="Submit"/>
+      </div>
+
+      <div id="a_lert"></div>
+
+  </body>
+
+
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="script/script.js"></script>
+
+  <div class='footer'>
+    <h4>Copyright &copy; Dongjin Xu</h4>
+  </div>
+</html>
