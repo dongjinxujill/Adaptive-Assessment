@@ -16,11 +16,11 @@ var question = [[
   "What is 2 + 3?",
   "What is 11 + 12?",
   "What is 33 + 44?"
-], 
+],
   ["What is 4 * 5?",
   "What is 5 * 6?",
   "What is 3 * 2 - 1?"
-], 
+],
   ["What is 2 ^ 4?",
   "What is 2 * 4 / 8?",
   "What is 4 ^ 2?"
@@ -38,7 +38,7 @@ function assessment(userinput) {
   // var userinput = question[detector][0];
   if (userinput === answer[detector][0]) {
     question[detector] = question[detector].splice(1,2);
-    answer[detector] = answer[detector].splice(1,2); 
+    answer[detector] = answer[detector].splice(1,2);
   }
   return answer;
   return question;
